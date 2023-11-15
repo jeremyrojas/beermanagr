@@ -1,11 +1,11 @@
-package com.hopspot.beerratr
+package com.hopspot.beermanagr
 
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
 
 @SpringBootApplication
-class BeerratrApplication
+class BeerManagrApplication
 
 fun main(args: Array<String>) {
-	runApplication<BeerratrApplication>(*args)
+	runApplication<BeerManagrApplication>(*args)
 }
